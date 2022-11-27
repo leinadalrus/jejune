@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=f:\Users\Amstel\workspaces\jejune\jejune\src-jejune\target\debug\build\typenum-d95e4fbba31c1498\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=f:\Users\Amstel\workspaces\jejune\jejune\src-jejune\target\debug\build\typenum-d95e4fbba31c1498\out\op.rs
