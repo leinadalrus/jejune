@@ -1,4 +1,7 @@
-export default function fade (element) {
+<script>
+let items
+
+export function fade (element) {
   requestAnimationFrame(() => {
     element.style.transition = 'none'
     element.style.color = 'hex(#FF526A)'
@@ -12,20 +15,17 @@ export default function fade (element) {
   })
 }
 
-export function next () {
-  $: next = items.type === 'next' ? 
-  `https://story.brio.app/\${`+ items.id++ + `}` :
-    items.next
-}
+$: forwards = items.type === 'next' ? 
+`https://story.brio.app/\${`+ items.id++ + `}` :
+  items.next
 
-export function previous () {
-  $: next = items.type === 'next' ? 
+$: fallback = items.type === 'next' ? 
   `https://story.brio.app/\${`+ items.id-- + `}` : 
     items.next
-}
 
 export function unknown () {
   $: unknown = items.type === 'undefined' ? 
   `https://story.brio.app/404` : 
     items.undefined
 }
+</script>

@@ -1,19 +1,18 @@
 <script lang='ts'>
+import getLanguageFromURL from '../Sidebar/Sidebar.svelte'
+import SIDEBAR  from '../Sidebar/Sidebar.svelte'
 
-import { getLanguageFromURL, SIDEBAR } from '../Sidebar/Sidebar.svelte'
-type Props = {
-  currentPage: string
-}
+const publicURL = process.env.VITE_SUPABASE_PUBLIC_URL
+const matchParams = publicURL.endsWith('/') 
+  ? publicURL.slice(1, -1) 
+  : publicURL.slice(1)
 
-const { currentPage } = Astro.props as Props
-const currentPageMatch = currentPage.endsWith('/') 
-  ? currentPage.slice(1, -1) 
-  : currentPage.slice(1)
-
-const langCode = getLanguageFromURL(currentPage);
+const langCode = getLanguageFromURL(matchParams)
 const sidebar = SIDEBAR[langCode]
+export const LeftSidebar: any = {svelteHTML}
 </script>
 <!-- TODO(TailwindCSS): Change classes with utility components -->
+<LeftSidebar>
 <nav aria-labelledby="grid-left" class="flex justify-center space-x-4">
 	<ul class="nav-groups 
     font-medium 
@@ -22,25 +21,12 @@ const sidebar = SIDEBAR[langCode]
     rounded-lg 
     hover:bg-slate-100 
     hover:text-slate-900">
-		{Object.entries(sidebar).map(([header, children]) => (
-			<li>
-				<div class="nav-group">
-					<h2>{header}</h2>
-					<ul>
-						{children.map((child) => {
-							const url = Astro.site?.pathname + child.link;
-							return (
-								<li class="nav-link">
-									<a href={url} aria-current={currentPageMatch === child.link ? 
-                    'page' : false}>
-										{child.text}
-									</a>
-								</li>
-							);
-						})}
-					</ul>
-				</div>
-			</li>
-		))}
-	</ul>
-</nav>
+
+      {#if matchParams === 'page' || false}
+      sidebar.map(([child]) => (
+        process.env.VITE_SUPABASE_PUBLIC_URL? + child.link
+        ))
+        {/if}
+      </ul>
+    </nav>
+</LeftSidebar>

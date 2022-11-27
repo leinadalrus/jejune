@@ -1,19 +1,21 @@
 <svelte:options immutable />
 
-<script>
+<script lang='ts'>
   import { afterUpdate } from 'svelte'
-  import { fade, next, previous, unknown } from './animateNiches.js';
+  import fade from './AnimateNiches.svelte'
+  import forwards from './AnimateNiches.svelte'
+  import fallback from './AnimateNiches.svelte'
 
-  export let DashboardModel
-  let div
+  export let DashboardModel: any
+  let div: any
 
   afterUpdate(() => {
-    fade(div)
+    new fade(div)
   })
 </script>
 
 <div bind:this={div} on:click on:keypress>
-  { DashboardModel.done ? next() || previous() : unknown() }
+  { DashboardModel.done ? forwards || fallback : undefined }
   { DashboardModel.body }
 </div>
 

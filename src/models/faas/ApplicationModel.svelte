@@ -1,10 +1,13 @@
-<script>
+<script lang='ts'>
 	import { onMount } from 'svelte'
 	import 'ForwardList.svelte'
-	import { Enumerables } from 'Enumerables.svelte'
+	import Enumerables from './Enumerables.svelte'
+	import type item from './Enumerables.svelte'
+	import type prevInto from './Enumerables.svelte'
 
-	let item
-	let page
+	let items: Array<item>
+  let prevIntos: Array<prevInto>
+	let page: any
 
 	async function hashchange () {
 		// the poor man's router!
@@ -12,12 +15,12 @@
 
 		if (path.startsWith('/item')) {
 			const id = path.slice(6)
-			item = await fetch(process.env.VITE_SUPABASE_PUB_URL+`/item/${id}`).then(r => r.json())
+			items = await fetch(process.env.VITE_SUPABASE_PUB_URL+`/item/${id}`).then(r => r.json())
 
 			window.scrollTo(0,0)
 		} else if (path.startsWith('/top')) {
 			page = +path.slice(5)
-			item = null
+			items
 		} else {
 			window.location.hash = '/top/1'
 		}
@@ -29,10 +32,10 @@
 <svelte:window on:hashchange={hashchange}/>
 
 <main>
-	{#if item}
-		<Enumerables {item} returnTo='#/top/{page}'/>
+	{#if items}
+		<prevInto={page}/>
 	{:else if page}
-		<Enumerables {page}/>
+		<items />
 	{/if}
 </main>
 
