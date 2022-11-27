@@ -1,5 +1,10 @@
 use lindera::tokenizer::Tokenizer;
 use lindera::LinderaResult;
+use lindera::{
+    mode::Mode,
+    tokenizer::{DictionaryConfig, Tokenizer, TokenizerConfig},
+    DictionaryKind,
+};
 use regex::Regex;
 
 enum Crits {
@@ -61,6 +66,7 @@ trait Gloss {
 
     fn proc() -> LinderaResult<()>;
     fn into_next_token(input_characters: String) -> String;
+    fn insp_puts_io(incoming_inputs: String) -> String;
     fn read_token_character() -> String;
     fn read_identifier();
     fn is_letter(is_letter_value: bool) -> bool;
@@ -85,6 +91,11 @@ impl Gloss for Lexer {
         return input_characters;
     }
 
+    fn insp_puts_io(incoming_inputs: String) -> String {
+      let s_val = String::new();
+      return s_val; // ! TODO: code ...
+    }
+
     fn read_token_character() -> String {
         let ret_value: String = "".to_owned();
         return ret_value;
@@ -105,6 +116,26 @@ impl Gloss for Lexer {
     fn destroy_tokens_health() {}
 }
 
+impl Default for Lexer {
+    fn default() -> Self {
+        let dict = DictionaryConfig {
+            kind: Some(DictionaryKind::CcCedict),
+            path: None,
+        };
+
+        let conf = TokenizerConfig {
+            dictionary: dict,
+            user_dictionary: None,
+            mode: Mode::Normal,
+        };
+        // let tokens = tokenizer.tokenize("可以进行中文形态学分析。")?; // tokenize the text
+        return Self {
+            tokenizer: Tokenizer::with_config(conf).unwrap(),
+            cursor: 0,
+        };
+    }
+}
+
 fn main() {
-  let lexer = Lexer::proc();
+    let lexer = Lexer::default();
 }
