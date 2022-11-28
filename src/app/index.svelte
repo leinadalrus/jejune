@@ -1,9 +1,10 @@
-<script>
+<script lang='ts'>
 import Card from '../components/Card/Card.svelte'
 import EditorLayout from '../../layouts/EditorLayout.svelte'
-import type Frontmatter from./../components/Frontmatter/Frontmatter.svelte'
+import type Frontmatter from './../components/Frontmatter/Frontmatter.svelte'
 
 const frontmatter = Frontmatter
+</script>
 
 <EditorLayout frontmatter={frontmatter}>
   <main>
@@ -11,7 +12,7 @@ const frontmatter = Frontmatter
     <p class='instructions'>
       'Write stories with Britomart Information Systems, and with as much fidelity with Markdown format!'
     </p>
-    <ul role='list' class='link-card-grid'>
+    <ul class='link-card-grid'>
       <Card
         href='https://britomart.is'
         title='Home'
