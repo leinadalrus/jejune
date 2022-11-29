@@ -1,9 +1,10 @@
 pub mod lexicon {
+    use std::io::{self, BufRead};
+
     use lindera::LinderaResult;
-    #[cfg(feature = "unidic")]
     use lindera::{
         mode::Mode,
-        tokenizer::{DictionaryConfig, Tokenizer, TokenizerConfig},
+        tokenizer::{DictionaryConfig, Tokenizer, TokenizerConfig, UserDictionaryConfig},
         DictionaryKind,
     };
     use regex::Regex;
@@ -62,11 +63,11 @@ pub mod lexicon {
         cursor: u8,
     }
 
-    trait Gloss {
+    pub trait Gloss {
         type Annals;
 
         fn into_next_token(input_characters: String) -> LinderaResult<()>;
-        fn read_token_character() -> String;
+        fn read_token_character() -> lindera::LinderaResult<()>;
         fn read_identifier();
         fn is_letter(is_letter_value: bool) -> bool;
         fn skip_whitespace();
@@ -81,17 +82,20 @@ pub mod lexicon {
         // ~TokenLexer(); // unnecessary for constant, persistant values
 
         fn into_next_token(input_characters: String) -> LinderaResult<()> {
-            #[cfg(feature = "unidic")]
-            {
-                let tokenizer = Tokenizer::new()?; // would end with a `?` but lead to error
-                let tokens = tokenizer.tokenize(&input_characters); // TODO
-            }
+            let tokenizer = Tokenizer::new()?; // would end with a `?` but lead to error
+            let tokens = tokenizer.tokenize(&input_characters); // TODO
+
             return Ok(()); // I want to return tokens
         }
 
-        fn read_token_character() -> String {
-            let ret_value: String = "".to_owned();
-            return ret_value;
+        fn read_token_character() -> lindera::LinderaResult<()> {
+            let input_characters = io::stdin();
+            for line in input_characters.lock().lines() {
+                // return as error variant value
+                return Self::into_next_token(line.unwrap());
+            }
+            // return as result variant value
+            return Ok(());
         }
 
         fn read_identifier() {}
