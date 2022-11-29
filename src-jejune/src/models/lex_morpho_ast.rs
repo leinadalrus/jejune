@@ -1,5 +1,6 @@
 pub mod lexicon {
     use lindera::LinderaResult;
+    #[cfg(feature = "unidic")]
     use lindera::{
         mode::Mode,
         tokenizer::{DictionaryConfig, Tokenizer, TokenizerConfig},
@@ -57,7 +58,7 @@ pub mod lexicon {
     }
 
     pub struct Lexer {
-        tokenizer: Tokenizer,
+        tokenizer: lindera::tokenizer::Tokenizer,
         cursor: u8,
     }
 
@@ -80,9 +81,11 @@ pub mod lexicon {
         // ~TokenLexer(); // unnecessary for constant, persistant values
 
         fn into_next_token(input_characters: String) -> LinderaResult<()> {
-            let tokenizer = Tokenizer::new()?; // would end with a `?` but lead to error
-            let tokens = tokenizer.tokenize(&input_characters); // TODO
-            
+            #[cfg(feature = "unidic")]
+            {
+                let tokenizer = Tokenizer::new()?; // would end with a `?` but lead to error
+                let tokens = tokenizer.tokenize(&input_characters); // TODO
+            }
             return Ok(()); // I want to return tokens
         }
 
@@ -108,19 +111,19 @@ pub mod lexicon {
 
     impl Default for Lexer {
         fn default() -> Self {
-            let dict = DictionaryConfig {
-                kind: Some(DictionaryKind::CcCedict),
+            let dict = lindera::tokenizer::DictionaryConfig {
+                kind: Some(lindera::DictionaryKind::UniDic),
                 path: None,
             };
 
-            let conf = TokenizerConfig {
+            let conf = lindera::tokenizer::TokenizerConfig {
                 dictionary: dict,
                 user_dictionary: None,
-                mode: Mode::Normal,
+                mode: lindera::mode::Mode::Normal,
             };
             // let tokens = tokenizer.tokenize("可以进行中文形态学分析。")?; // tokenize the text
             return Self {
-                tokenizer: Tokenizer::with_config(conf).unwrap(),
+                tokenizer: lindera::tokenizer::Tokenizer::with_config(conf).unwrap(),
                 cursor: 0,
             };
         }
