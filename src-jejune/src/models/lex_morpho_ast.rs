@@ -2,6 +2,7 @@ pub mod lexicon {
     use std::io::{self, BufRead};
 
     use lindera::LinderaResult;
+    use lindera::error::LinderaError;
     use lindera::{
         mode::Mode,
         tokenizer::{DictionaryConfig, Tokenizer, TokenizerConfig, UserDictionaryConfig},
@@ -53,6 +54,10 @@ pub mod lexicon {
         LET,
     }
 
+    struct Tokens<'a, T> {
+      tokens: Result<Vec<lindera_core::token::Token<'a>>, T>,
+    }
+
     struct Symbol {
         token_type: Crits,
         literal_type: String,
@@ -60,6 +65,7 @@ pub mod lexicon {
 
     pub struct Lexer {
         tokenizer: lindera::tokenizer::Tokenizer,
+        sym: Symbol,
         cursor: u8,
     }
 
@@ -83,7 +89,8 @@ pub mod lexicon {
 
         fn into_next_token(input_characters: String) -> LinderaResult<()> {
             let tokenizer = Tokenizer::new()?; // would end with a `?` but lead to error
-            let tokens = tokenizer.tokenize(&input_characters); // TODO
+            // TODO
+            Tokens{tokens: tokenizer.tokenize(&input_characters)};
 
             return Ok(()); // I want to return tokens
         }
@@ -128,8 +135,17 @@ pub mod lexicon {
             // let tokens = tokenizer.tokenize("可以进行中文形态学分析。")?; // tokenize the text
             return Self {
                 tokenizer: lindera::tokenizer::Tokenizer::with_config(conf).unwrap(),
+                sym: Symbol { token_type: Crits::END_OF_FILE, literal_type: String::new()},
                 cursor: 0,
             };
         }
+    }
+
+    impl std::ops::Deref for Lexer {
+        type Target = Option<()>;
+
+        fn deref(&self) -> &Self::Target {
+        todo!()
+    }
     }
 }

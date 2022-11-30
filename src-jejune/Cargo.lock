@@ -508,6 +508,7 @@ name = "src-jejune"
 version = "0.1.0"
 dependencies = [
  "lindera",
+ "lindera-core",
  "regex",
 ]
 

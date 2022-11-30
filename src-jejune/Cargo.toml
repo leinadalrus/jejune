@@ -9,3 +9,4 @@ authors = ["BoyBulbousBemperor", "leinadalrus"]
 [dependencies]
 regex = "1.7.0"
 lindera = "0.18.0"
+lindera-core = "0.18.0"
