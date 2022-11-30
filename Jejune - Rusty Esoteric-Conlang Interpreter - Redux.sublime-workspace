@@ -508,13 +508,24 @@
 	"buffers":
 	[
 		{
+			"file": "src-jejune/src/models/lex_morpho_ast.rs",
+			"settings":
+			{
+				"buffer_size": 3864,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "src-jejune/src/main.rs",
 			"settings":
 			{
-				"buffer_size": 2859,
-				"encoding": "UTF-8",
+				"buffer_size": 121,
 				"line_ending": "Unix"
-			}
+			},
+			"undo_stack":
+			[
+			]
 		}
 	],
 	"build_system": "",
@@ -660,7 +671,8 @@
 	[
 		"/F/Users/Amstel/workspaces/jejune/jejune",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune/src"
+		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune/src",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune/src/models"
 	],
 	"file_history":
 	[
@@ -700,7 +712,7 @@
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -737,20 +749,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src-jejune/src/main.rs",
-					"selected": true,
-					"semi_transient": true,
+					"file": "src-jejune/src/models/lex_morpho_ast.rs",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2859,
+						"buffer_size": 3864,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								575,
-								575
+								445,
+								445
 							]
 						],
 						"settings":
@@ -768,7 +779,55 @@
 								}
 							],
 							"lsp_active": true,
-							"lsp_hover_provider_count": 4,
+							"lsp_hover_provider_count": 1,
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src-jejune/src/models/lex_morpho_ast.rs",
+							"show_definitions": false,
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1053.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src-jejune/src/main.rs",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".:",
+									"selector": "source.rust"
+								},
+								{
+									"characters": ":.'(",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "rust-analyzer"
+								}
+							],
+							"lsp_active": true,
+							"lsp_hover_provider_count": 1,
 							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src-jejune/src/main.rs",
 							"show_definitions": false,
 							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
@@ -776,7 +835,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 672.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -788,7 +847,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 37.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -853,7 +912,7 @@
 	"project": "Jejune - Rusty Esoteric-Conlang Interpreter - Redux.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
