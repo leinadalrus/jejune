@@ -5,6 +5,7 @@ use std::env;
 
 pub trait EstablishInterface {
     fn establish_connection() -> PgConnection;
+    fn format_display_schema();
 }
 
 #[derive(Queryable)]
@@ -37,5 +38,21 @@ impl EstablishInterface for AccountData {
 
         return PgConnection::establish(&database_url)
             .unwrap_or_else(|_| panic!("Error on connection establishment with {}", database_url));
+    }
+
+    fn format_display_schema() {
+        let connection = &mut establish_connection();
+        let results = accounts
+            .filter(is_transacted.eq(true))
+            .limit(1)
+            .load::<AccountData>(connection)
+            .expect("Error loading posts");
+
+        println!("Displaying {} accounts", results.len());
+        for account in results {
+            println!("{}", account.uuid);
+            println!("-----------\n");
+            println!("{}", account.first_name);
+        }
     }
 }
