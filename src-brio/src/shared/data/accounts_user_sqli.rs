@@ -1,16 +1,23 @@
 pub mod shared {
     pub mod data {
-        use diesel::pg::PgConnection;
-        use diesel::prelude::*;
         use dotenvy::dotenv;
+        use sqlx::postgres::PgPoolOptions;
         use std::env;
+        use std::pin::Pin;
+        use std::future::Future;
+        use std::task::{Context, Poll};
+        use std::time::{Duration, Instant};
 
-        pub trait EstablishInterface {
-            fn establish_connection() -> PgConnection;
-            fn format_display_schema();
+        pub enum AsyncFnFuture {
+          State0,
+          State1(tokio::time::MissedTickBehavior),
+          Terminated
         }
 
-        #[derive(Queryable)]
+        pub trait EstablishInterface {
+            fn establish_connection() -> Result<(), sqlx::Error>;
+        }
+
         pub struct AccountData {
             uuid: String,
             first_name: String,
@@ -31,31 +38,26 @@ pub mod shared {
             }
         }
 
+        impl Future for AsyncFnFuture {
+          type Output = ();
+
+          fn poll(self: Pin<&mut Self>, cx: &mut Context<'_>) -> Poll<Self::Output> {
+              use AsyncFnFuture::*;
+          }
+        }
+
         impl EstablishInterface for AccountData {
-            fn establish_connection() -> PgConnection {
+            fn establish_connection() -> Result<(), sqlx::Error> {
                 dotenv().ok();
 
                 let database_url = env::var("SUPABASE_PUBLIC_POSTGRESQL_URL")
                     .expect("Database URL must be set in \".env\"");
 
-                return PgConnection::establish(&database_url)
-                    .unwrap_or_else(|_| panic!("Error on connection establishment with {}", database_url));
-            }
+                let pool = PgPoolOptions::new()
+                    .max_connections(1)
+                    .connect(&database_url);
 
-            fn format_display_schema() {
-                let connection = &mut establish_connection();
-                let results = accounts
-                    .filter(is_transacted.eq(true))
-                    .limit(1)
-                    .load::<AccountData>(connection)
-                    .expect("Error loading posts");
-
-                println!("Displaying {} accounts", results.len());
-                for account in results {
-                    println!("{}", account.uuid);
-                    println!("-----------\n");
-                    println!("{}", account.first_name);
-                }
+                return Ok(());
             }
         }
     } // pub mod data

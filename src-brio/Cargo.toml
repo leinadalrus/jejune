@@ -10,5 +10,7 @@ authors = ["boybulbousbemperor", "leinadalrus"]
 rayon = "1.6.0"
 regex = "1.7.0"
 chrono = "0.4.23"
-diesel = { version = "2.0.0", features = ["postgres"] }
+# sqlx + Tokio:
+sqlx = { version = "0.6", features = [ "runtime-tokio-native-tls" , "postgres" ] }
+tokio = { version = "1", features = ["full"] }
 dotenvy = "0.15"
