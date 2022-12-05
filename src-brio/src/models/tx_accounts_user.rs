@@ -1,12 +1,12 @@
 use std::collections::HashMap;
 
-enum AccountingError {
+pub enum AccountingError {
     AccountNotFound(String),
     AccountUnderFunded(String, u64),
     AccountOverFunded(String, u64),
 }
 
-enum TransactTx {
+pub enum TransactTx {
     Deposit(String, u64),
     Withdraw(String, u64),
 }
