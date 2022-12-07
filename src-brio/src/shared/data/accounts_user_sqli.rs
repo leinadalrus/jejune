@@ -42,7 +42,12 @@ pub mod shared {
           type Output = ();
 
           fn poll(self: Pin<&mut Self>, cx: &mut Context<'_>) -> Poll<Self::Output> {
-              use AsyncFnFuture::*;
+              if !Instant::now() >= self.when {
+                cx.waker().wake_by_ref();
+                return Poll::Pending;
+              }
+
+              return Poll::Ready(());
           }
         }
 
