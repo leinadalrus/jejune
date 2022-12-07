@@ -2,7 +2,9 @@
   import 'ActivityCalendarDirector.svelte'
   import 'ActivityCalendarScorer.svelte'
   import Enumerables from '../../models/faas/Enumerables.svelte'
-  import { Calendar } from '@d3/calendar'
+  import '@d3/color-legend'
+  import '@d3/example-components'
+  import * as d3 from 'd3'
 
   $: trackedFiles = JSON.stringify(
     FileAttachment(process.env.VITE_SUPABASE_PUB_URL 
@@ -17,7 +19,7 @@
   })
 </script>
 
-<Enumerables>
+<Enumerables bind:this>
   <svelte:component this={ContributionsChart}/>
 </Enumerables>
 

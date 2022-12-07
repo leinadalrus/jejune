@@ -1,16 +1,22 @@
 <script lang='ts'>
-  import type Frontmatter from '../Frontmatter/Frontmatter.svelte'
-  let frontmatter: Frontmatter
+  import Frontmatter from '../Frontmatter/Frontmatter.svelte'
+  let frontmatter = typeof Frontmatter
+
+  type Card = {
+    url: string
+    title: string
+    body: string
+  }
 </script>
 
 <li class="link-card">
-	<a href={frontmatter.href}>
+	<a href={frontmatter}>
 		<h2>
-			{frontmatter.title}
+			{frontmatter}
 			<span>&rarr;</span>
 		</h2>
 		<p>
-			{frontmatter.body}
+			{frontmatter}
 		</p>
 	</a>
 </li>
