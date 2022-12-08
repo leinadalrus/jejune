@@ -1,14 +1,9 @@
 <script lang='ts'>
-import getLanguageFromURL from '../Sidebar/Sidebar.svelte'
-import SIDEBAR  from '../Sidebar/Sidebar.svelte'
+let publicURL = process.env.VITE_SUPABASE_PUBLIC_URL?.toString()
+const matchParams = publicURL?.endsWith('/') 
+  ? publicURL?.slice(1, -1) 
+  : publicURL?.slice(1)
 
-const publicURL = process.env.VITE_SUPABASE_PUBLIC_URL
-const matchParams = publicURL.endsWith('/') 
-  ? publicURL.slice(1, -1) 
-  : publicURL.slice(1)
-
-const langCode = getLanguageFromURL(matchParams)
-const sidebar = SIDEBAR[langCode]
 export const LeftSidebar: any = {svelteHTML}
 </script>
 <!-- TODO(TailwindCSS): Change classes with utility components -->
@@ -23,9 +18,11 @@ export const LeftSidebar: any = {svelteHTML}
     hover:text-slate-900">
 
       {#if matchParams === 'page' || false}
-      sidebar.map(([child]) => (
+      <script>
+      (child) => (
         process.env.VITE_SUPABASE_PUBLIC_URL? + child.link
-        ))
+        )
+      </script>
         {/if}
       </ul>
     </nav>
