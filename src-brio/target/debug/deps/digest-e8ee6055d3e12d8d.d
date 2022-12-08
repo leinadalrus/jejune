@@ -1,0 +1,12 @@
+f:\Users\Amstel\workspaces\jejune\jejune\src-brio\target\debug\deps\digest-e8ee6055d3e12d8d.rmeta: C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\lib.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api\ct_variable.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api\rt_variable.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api\wrapper.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api\xof_reader.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\digest.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\mac.rs
+
+f:\Users\Amstel\workspaces\jejune\jejune\src-brio\target\debug\deps\digest-e8ee6055d3e12d8d.d: C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\lib.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api\ct_variable.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api\rt_variable.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api\wrapper.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api\xof_reader.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\digest.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\mac.rs
+
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\lib.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api\ct_variable.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api\rt_variable.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api\wrapper.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\core_api\xof_reader.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\digest.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.6\src\mac.rs:

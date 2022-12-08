@@ -1,0 +1,16 @@
+[package]
+name = "src-brio"
+version = "0.1.0"
+edition = "2021"
+authors = ["boybulbousbemperor", "leinadalrus"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayon = "1.6.0"
+regex = "1.7.0"
+chrono = "0.4.23"
+# sqlx + Tokio:
+sqlx = { version = "0.6", features = [ "runtime-tokio-native-tls" , "postgres" ] }
+tokio = { version = "1", features = ["full"] }
+dotenvy = "0.15"

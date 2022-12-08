@@ -1,0 +1,18 @@
+f:\Users\Amstel\workspaces\jejune\jejune\src-jejune\target\debug\deps\typenum-1a918de526f7ca40.rmeta: C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\lib.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\bit.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\int.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\marker_traits.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\operator_aliases.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\private.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\type_operators.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\uint.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\array.rs f:\Users\Amstel\workspaces\jejune\jejune\src-jejune\target\debug\build\typenum-d95e4fbba31c1498\out\op.rs f:\Users\Amstel\workspaces\jejune\jejune\src-jejune\target\debug\build\typenum-d95e4fbba31c1498\out\consts.rs
+
+f:\Users\Amstel\workspaces\jejune\jejune\src-jejune\target\debug\deps\typenum-1a918de526f7ca40.d: C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\lib.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\bit.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\int.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\marker_traits.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\operator_aliases.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\private.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\type_operators.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\uint.rs C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\array.rs f:\Users\Amstel\workspaces\jejune\jejune\src-jejune\target\debug\build\typenum-d95e4fbba31c1498\out\op.rs f:\Users\Amstel\workspaces\jejune\jejune\src-jejune\target\debug\build\typenum-d95e4fbba31c1498\out\consts.rs
+
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\lib.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\bit.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\int.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\marker_traits.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\operator_aliases.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\private.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\type_operators.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\uint.rs:
+C:\Users\danie\.cargo\registry\src\github.com-1ecc6299db9ec823\typenum-1.15.0\src\array.rs:
+f:\Users\Amstel\workspaces\jejune\jejune\src-jejune\target\debug\build\typenum-d95e4fbba31c1498\out\op.rs:
+f:\Users\Amstel\workspaces\jejune\jejune\src-jejune\target\debug\build\typenum-d95e4fbba31c1498\out\consts.rs:
+
+# env-dep:TYPENUM_BUILD_CONSTS=f:\\Users\\Amstel\\workspaces\\jejune\\jejune\\src-jejune\\target\\debug\\build\\typenum-d95e4fbba31c1498\\out\\consts.rs
+# env-dep:TYPENUM_BUILD_OP=f:\\Users\\Amstel\\workspaces\\jejune\\jejune\\src-jejune\\target\\debug\\build\\typenum-d95e4fbba31c1498\\out\\op.rs

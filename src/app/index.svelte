@@ -1,38 +1,35 @@
----
-import Card from './components/Card/Card.astro'
-import EditorLayout from '../layouts/EditorLayout.astro'
-import type { Props } from './components/Frontmatter/Frontmatter.astro'
+<script lang='ts'>
+import Card from '../components/Card/Card.svelte'
+import EditorLayout from '../../layouts/EditorLayout.svelte'
+import type Frontmatter from './../components/Frontmatter/Frontmatter.svelte'
 
-// const cookie = Astro.request.headers.get('cookie')
-Astro.request.headers.get('cookie')
-
-const { frontmatter } = Astro.props as Props
----
+const frontmatter = Frontmatter
+</script>
 
 <EditorLayout frontmatter={frontmatter}>
   <main>
     <h1>Welcome to <span class='text-gradient'>Astro</span></h1>
     <p class='instructions'>
-      'Write stories with Brio, and with as much fidelity with Markdown format!'
+      'Write stories with Britomart Information Systems, and with as much fidelity with Markdown format!'
     </p>
-    <ul role='list' class='link-card-grid'>
+    <ul class='link-card-grid'>
       <Card
-        href='https://my.brio'
+        href='https://britomart.is'
         title='Home'
         body='Hello, World! And welcome to Br.io!</a>'
       />
       <Card
-        href='https://my.brio/write'
+        href='https://britomart.is/write'
         title='Write'
         body='With Markdown, you can write stories with a great deal of control.'
       />
       <Card
-        href='https://my.brio/learn'
+        href='https://britomart.is/learn'
         title='Learn'
         body='Learn how to write good stories'
       />
       <Card
-        href='https://my.brio/featured'
+        href='https://britomart.is/featured'
         title='Featured'
         body='Discover new and popular reads.'
       />
@@ -41,10 +38,10 @@ const { frontmatter } = Astro.props as Props
 </EditorLayout>
 
 <footer>
-  <a href='https://my.br.io' target='_blank' rel='noopener noreferrer'>
+  <a href='https://britomart.is' target='_blank' rel='noopener noreferrer'>
     Powered by
     <span>
-      <img src='public/favicon.svg' alt='Astro Logo' width={72} height={16} />
+      <img src='static/favicon.svg' alt='Svelte Logo' width={72} height={16} />
     </span>
   </a>
 </footer>

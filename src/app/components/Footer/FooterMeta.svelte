@@ -7,5 +7,5 @@ export let path: string
 </script>
 
 <footer>
-  <StatusBanner bind:value={path} />
+  <StatusBanner />
 </footer>

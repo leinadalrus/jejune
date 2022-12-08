@@ -1,10 +1,11 @@
 <script>
-layout: ../layouts/ModelLayout.astro
-title: Error! [404]
-author: 'Inland-Imperial'
-date: '13 Oct 2022'
+import EditorLayout from '../layouts/EditorLayout.svelte'
+const title = 'Error! [404]'
+const autho = 'Boy Emperor Pfks!'
+const date = '13 Oct 2022'
 </script>
 
+<!-- svelte-ignore a11y-missing-attribute -->
 <html>
 
 <h1>Hello!</h1>

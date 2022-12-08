@@ -14,9 +14,12 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.1.1",
     "@tauri-apps/api": "^1.1.0",
+    "@types/d3": "^7.4.0",
+    "d3": "^7.7.0",
     "supabase": "^1.15.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.28.1",
     "@sveltejs/adapter-static": "next",
     "@sveltejs/kit": "next",
     "@tauri-apps/cli": "^1.1.0",

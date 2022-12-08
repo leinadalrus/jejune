@@ -1,7 +1,7 @@
 <script lang='ts'>
 import type Frontmatter from '../Frontmatter/Frontmatter.svelte'
 
-export let frontmatter: Frontmatter
+let frontmatter: Frontmatter
 </script>
 
 <article id="article" class="content">
