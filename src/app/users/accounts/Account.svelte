@@ -1,10 +1,13 @@
 <script lang='ts'>
+/** @type {import('./$types').RequestHandler} */
+import { json } from '@sveltejs/kit'
+
 import { createEventDispatcher } from 'svelte'
 import { fade } from 'svelte/transition'
 
 import Card from '../../components/Card/Card.svelte'
 import ContentBody from '../../components/ContentBody/ContentBody.svelte'
-import type Frontmatter from '../../components/Frontmatter/Frontmatter.svelte'
+import Frontmatter from '../../components/Frontmatter/Frontmatter.svelte'
   
 import DeliveredInitialization from '../../utils/login.js'
 
@@ -15,19 +18,23 @@ const dispatch = createEventDispatcher()
 export let Account
 
 // NOTE(authenitcate): originally this was a function and turned this into a-
-$: authenticate = () => { // -labeled lambda directive/attr...
+$: authenticate = (event: any)=>{ // -labeled lambda directive/attr...
   const cookie = document.cookie
-
   if (!DeliveredInitialization(cookie)) {
-    return { 
+    return json({ 
       headers: { Location: '/users/auths/login' }, 
       status: 302
-    }
+    })
   }
+   
+    return json({
+      // retrieve a specific header
+      userAgent: event.request.headers.get('user-agent')
+    })
 } // ...now it's reactive!?
 </script>
 
-<ContentBody frontmatter={frontmatter} bind:this={authenticate}>
+<ContentBody>
   <div bind:this={Account}>
     <Card>
       <span>
