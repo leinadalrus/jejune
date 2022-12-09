@@ -2,19 +2,14 @@
 /** @type {import('./$types').RequestHandler} */
 import { json } from '@sveltejs/kit'
 
-import { createEventDispatcher } from 'svelte'
-import { fade } from 'svelte/transition'
+// import { createEventDispatcher } from 'svelte'
 
 import Card from '../../components/Card/Card.svelte'
 import ContentBody from '../../components/ContentBody/ContentBody.svelte'
-import Frontmatter from '../../components/Frontmatter/Frontmatter.svelte'
   
 import DeliveredInitialization from '../../utils/login.js'
 
-const frontmatter = typeof Frontmatter
-let controller, action, id
-
-const dispatch = createEventDispatcher()
+// const dispatch = createEventDispatcher() // just make this into a reactive function [!]
 export let Account
 
 // NOTE(authenitcate): originally this was a function and turned this into a-
