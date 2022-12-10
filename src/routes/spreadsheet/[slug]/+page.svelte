@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import type { PageData } from './$types.d.ts'
+  import type { PageData } from './$types'
   import ContentBody from '../../../app/components/ContentBody/ContentBody.svelte'
   import EditorLayout from '../../../layouts/EditorLayout.svelte'
   export let data: PageData
