@@ -1,16 +1,24 @@
-<script lang='ts'>
+<script lang='ts' context='module'>
 import type Frontmatter from '../Frontmatter/Frontmatter.svelte'
 
 let frontmatter: Frontmatter
+
+const root = document.documentElement
+const theme = localStorage.getItem('theme')
+if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  root.classList.add('theme-dark')
+} else {
+  root.classList.remove('theme-dark')
+}
 </script>
+
 <head>
 	<meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="Brio: Markdown web novel - story writing"
+  <meta name="Britomart: Markdown web novel - story writing"
   content="Write stories with Brio, 
   and with as much fidelity with Markdown format!"/>
-	<meta name="generator" content={Astro.generator} />
 	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 	<title>{frontmatter.title}</title>
 </head>
@@ -49,14 +57,3 @@ let frontmatter: Frontmatter
   <!-- <slot /> -->
   <p>Written on: {frontmatter.date}</p>
 </nav>
-
-<!-- This is intentionally inlined to avoid FOUC -->
-<script is:inline>
-  const root = document.documentElement
-  const theme = localStorage.getItem('theme')
-  if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-    root.classList.add('theme-dark')
-  } else {
-    root.classList.remove('theme-dark')
-  }
-</script>

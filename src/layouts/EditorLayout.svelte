@@ -1,17 +1,17 @@
 <script lang='ts'>
-import ContentBody from '../pages/components/ContentBody/ContentBody.svelte'
-import Footer from '../pages/components/Footer/FooterMeta.svelte'
-import type { Frontmatter } from '../pages/components/Frontmatter/Frontmatter.svelte'
-import HeaderMeta from '../pages/components/Header/HeaderMeta.svelte'
+import { VITE_SUPABASE_PUB_URL } from '$env/static/private';
+
+import ContentBody from '../routes/components/ContentBody/ContentBody.svelte'
+import Footer from '../routes/components/Footer/FooterMeta.svelte'
+import Frontmatter from '../routes/components/Frontmatter/Frontmatter.svelte'
 
 type Props = {
   frontmatter: Frontmatter
 }
 
-const { frontmatter } = Astro.props as Props
-// const canonicalURL = new URL(Astro.url.pathname, Astro.site)
-const currentPage = Astro.url.pathname
-const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`
+let frontmatter = typeof Frontmatter
+const currentPage = VITE_SUPABASE_PUB_URL
+const currentFile = `src/routes${currentPage.replace(/\/$/, '')}.md`
 
 const pages = {
   undefined: {
@@ -43,10 +43,8 @@ const pages = {
   }
 }
 
-// const { slug } = Astro.params
 // const page = pages[slug]
-if (!pages) return Astro.redirect('/404')
-const { title = frontmatter.title, text = frontmatter.description } = Astro.props
+if (!pages) new Request(VITE_SUPABASE_PUB_URL)
 </script>
 
 <html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'en-uk'} class="initial">

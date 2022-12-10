@@ -1,8 +1,8 @@
-<script>
+<script lang='ts'>
   import ImmutableModel from '../models/faas/DashboardModel.svelte'
   import { beforeUpdate } from 'svelte'
 
-  export let items, offsets = [
+  export let items: any = [
     { user: '', content: '', commentsCount: 1, timeAgo: Date.now() }
   ]
   export let inputs = [
@@ -17,8 +17,8 @@
     return `${content} ${content === 1 ? 'comment' : 'comments'}`
   }
 
-  function toggle (id) {
-    inputs = inputs.map(input => {
+  function toggle (id: any) {
+    let input = inputs.map(input => {
       if (input.id === id) {
         return {
           id,
@@ -37,7 +37,7 @@
 {/each}
 
 <article>
-  <span>{items + offsets + 1}</span>
+  <span>{items + 1}</span>
   <!-- svelte-ignore security-anchor-rel-noreferrer -->
   <h2><a href='{url}' target='_blank'>{items.title}</a></h2>
   <p class='meta'>
