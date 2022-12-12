@@ -519,14 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/routes/spreadsheet/[slug]/+page.svelte",
-			"settings":
-			{
-				"buffer_size": 366,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -704,6 +696,8 @@
 		"/F/Users/Amstel/workspaces/jejune/jejune",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]",
@@ -716,8 +710,14 @@
 	],
 	"file_history":
 	[
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/EditorLayout.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor/+error.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]/+page.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/+error.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor/+layout.ts",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/+layout.ts",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/+layout.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor/+layout.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/EditorLayout.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/markdown/[slug]/+page.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/index.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/components/Card/Card.svelte",
@@ -828,70 +828,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/routes/spreadsheet/[slug]/+page.svelte",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 366,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								366,
-								366
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".>:",
-									"selector": "source.c++ - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".>:",
-									"selector": "source.c - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".>: ",
-									"selector": "source.objc++ - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".>: ",
-									"selector": "source.objc - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".>: ",
-									"selector": "source.cuda-c++ - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".\"'`/@<>*#$+^([@-:|",
-									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
-									"server": "LSP-svelte"
-								}
-							],
-							"lsp_active": true,
-							"lsp_hover_provider_count": 5,
-							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%5Bslug%5D/%2Bpage.svelte",
-							"show_definitions": false,
-							"syntax": "Packages/Svelte/Svelte.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
