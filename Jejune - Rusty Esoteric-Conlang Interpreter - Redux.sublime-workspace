@@ -791,7 +791,7 @@
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -877,7 +877,7 @@
 								}
 							],
 							"lsp_active": true,
-							"lsp_hover_provider_count": 4,
+							"lsp_hover_provider_count": 5,
 							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%5Bslug%5D/%2Bpage.svelte",
 							"show_definitions": false,
 							"syntax": "Packages/Svelte/Svelte.sublime-syntax",
@@ -897,7 +897,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 37.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -970,7 +970,7 @@
 	"project": "Jejune - Rusty Esoteric-Conlang Interpreter - Redux.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
