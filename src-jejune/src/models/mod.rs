@@ -1,1 +1,1 @@
-pub mod lex_morpho_ast;
+pub mod lang;
