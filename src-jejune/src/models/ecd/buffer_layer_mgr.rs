@@ -8,7 +8,7 @@ use std::{
     result::Result,
 };
 
-trait CrudLayer {
+trait HandlerInterface {
     fn create() -> Self;
     fn read(filename: String);
     fn update(layer: String); // layer is an event-message result
@@ -37,7 +37,7 @@ impl BufferLayerShort {
     }
 }
 
-impl CrudLayer for BufferLayerShort {
+impl HandlerInterface for BufferLayerShort {
     fn create() -> Self {
         return Self::new();
     }
@@ -71,7 +71,7 @@ impl TableEditorShort {
     }
 }
 
-impl CrudLayer for TableEditorShort {
+impl HandlerInterface for TableEditorShort {
     fn create() -> Self {
         return Self::new();
     }
