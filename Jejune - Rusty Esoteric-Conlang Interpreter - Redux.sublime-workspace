@@ -520,873 +520,344 @@
 	"buffers":
 	[
 		{
-			"file": "src-jejune/src/models/ecd/buffer_layer_mgr.rs",
+			"file": "src/routes/spreadsheet/[slug]/+layout.svelte",
+			"settings":
+			{
+				"buffer_size": 271,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "src/routes/spreadsheet/[slug]/+layout.ts",
 			"redo_stack":
 			[
 				[
-					247,
+					5,
 					1,
-					"rust_accept_suggested_replacement",
-					{
-						"region":
-						[
-							115,
-							135
-						],
-						"replacement": ""
-					},
-					"AQAAAHMAAAAAAAAAhwAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAmwEAAAAAAACbAQAAAAAAAAAAAAAAAPC/"
+					"cut",
+					null,
+					"AQAAAAAAAAAAAAAA4QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 				]
 			],
 			"settings":
 			{
-				"buffer_size": 1803,
+				"buffer_size": 225,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "src/routes/spreadsheet/[slug]/+page.svelte",
+			"settings":
+			{
+				"buffer_size": 366,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "src/routes/spreadsheet/[slug]/+page.ts",
+			"settings":
+			{
+				"buffer_size": 280,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
 				[
-					1,
-					1,
-					"revert",
+					14,
+					9,
+					"left_delete",
 					null,
-					"AgAAAAAAAAAAAAAAAAAAAAAAAAAVBgAAdXNlIHN0ZDo6ewogICAgY29sbGVjdGlvbnM6OntIYXNoTWFwLCBWZWNEZXF1ZX0sCiAgICBlcnJvcjo6RXJyb3IsCiAgICBmczo6RmlsZSwKICAgIGlvOjpwcmVsdWRlOjoqLAogICAgb3B0aW9uOjpPcHRpb24sCiAgICBwYXRoOjpQYXRoLAogICAgcmVzdWx0OjpSZXN1bHQsCn07Cgp0cmFpdCBDcnVkTGF5ZXIgewogICAgZm4gY3JlYXRlKCkgLT4gU2VsZjsKICAgIGZuIHJlYWQoZmlsZW5hbWU6IFN0cmluZyk7CiAgICBmbiB1cGRhdGUobGF5ZXI6IFN0cmluZyk7IC8vIGxheWVyIGlzIGFuIGV2ZW50LW1lc3NhZ2UgcmVzdWx0CiAgICBmbiBkZXN0cm95KCkgLT4gUmVzdWx0PCgpLCBCb3g8ZHluIEVycm9yPj47Cn0KCnN0cnVjdCBCcmlkZ2VkVGhyb3VnaHB1dERpcmVjdG9yKFN0cmluZyk7CgpzdHJ1Y3QgQnVmZmVyTGF5ZXJTaG9ydDsKCnN0cnVjdCBUYWJsZUVkaXRvclNob3J0OyAvLyBzaG9ydDogYXMgaW4gbWVhbmluZyAsLHRlbXBvcmFyeScnCgppbXBsIEJ1ZmZlckxheWVyU2hvcnQgewogICAgcHViIGZuIG5ldygpIC0+IFNlbGYgewogICAgICAgIHJldHVybiBTZWxmOwogICAgfQp9CgppbXBsIENydWRMYXllciBmb3IgQnVmZmVyTGF5ZXJTaG9ydCB7CiAgICBmbiBjcmVhdGUoKSAtPiBTZWxmIHsKICAgICAgICByZXR1cm4gU2VsZjo6bmV3KCk7CiAgICB9CiAgICBmbiByZWFkKGZpbGVuYW1lOiBTdHJpbmcpIHsKICAgICAgICBsZXQgcGF0aCA9IFBhdGg6Om5ldygmZmlsZW5hbWUpOwogICAgICAgIGxldCBkaXNwbGF5ID0gcGF0aC5kaXNwbGF5KCk7CgogICAgICAgIGxldCBtdXQgZmlsZSA9IG1hdGNoIEZpbGU6Om9wZW4oJnBhdGgpIHsKICAgICAgICAgICAgRXJyKHdoeSkgPT4gcGFuaWMhKCJjb3VsZG4ndCBvcGVuIHt9OiB7fSIsIGRpc3BsYXksIHdoeSksCiAgICAgICAgICAgIE9rKGZpbGUpID0+IGZpbGUsCiAgICAgICAgfTsKCiAgICAgICAgZmlsZW5hbWUgPSBTdHJpbmc6Om5ldygpOwogICAgICAgIG1hdGNoIGZpbGUucmVhZF90b19zdHJpbmcoJm11dCAmZmlsZW5hbWUpIHsKICAgICAgICAgICAgRXJyKHdoeSkgPT4gcGFuaWMhKCJjb3VsZG4ndCByZWFkIHt9OiB7fSIsIGRpc3BsYXksIHdoeSksCiAgICAgICAgICAgIE9rKF8pID0+IHByaW50ISgie30gY29udGFpbnM6XG57fSIsIGRpc3BsYXksIGZpbGVuYW1lKSwKICAgICAgICB9CgogICAgZm4gdXBkYXRlKGxheWVyOiBTdHJpbmcpIHt9CgogICAgZm4gZGVzdHJveSgpIC0+IFJlc3VsdDwoKSwgQm94PGR5biBFcnJvcj4+IHt9Cn0KCmltcGwgVGFibGVFZGl0b3JTaG9ydCB7CiAgICBwdWIgZm4gbmV3KCkgLT4gU2VsZiB7CiAgICAgICAgcmV0dXJuIFNlbGY7CiAgICB9Cn0KCmltcGwgQ3J1ZExheWVyIGZvciBUYWJsZUVkaXRvclNob3J0IHsKICAgIGZuIGNyZWF0ZSgpIC0+IFNlbGYgewogICAgICAgIHJldHVybiBTZWxmOjpuZXcoKTsKICAgIH0KCiAgICBmbiByZWFkKGZpbGVuYW1lOiBTdHJpbmcpIHt9CgogICAgZm4gdXBkYXRlKGxheWVyOiBTdHJpbmcpIHt9CgogICAgZm4gZGVzdHJveSgpIC0+IFJlc3VsdDwoKSwgQm94PGR5biBFcnJvcj4+IHt9Cn0KAAAAAAAAAAAcBgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+					"CQAAAO0AAAAAAAAA7QAAAAAAAAABAAAAdOwAAAAAAAAA7AAAAAAAAAABAAAAcusAAAAAAAAA6wAAAAAAAAABAAAAYeoAAAAAAAAA6gAAAAAAAAABAAAAbekAAAAAAAAA6QAAAAAAAAABAAAAb+gAAAAAAAAA6AAAAAAAAAABAAAAdOcAAAAAAAAA5wAAAAAAAAABAAAAaeYAAAAAAAAA5gAAAAAAAAABAAAAcuUAAAAAAAAA5QAAAAAAAAABAAAAQg",
+					"AQAAAAAAAAABAAAA7gAAAAAAAADuAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					26,
+					15,
 					1,
-					"run_macro_file",
+					"insert",
 					{
-						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+						"characters": "tas"
 					},
-					"BgAAABgGAAAAAAAAGQYAAAAAAAAAAAAAGQYAAAAAAAAdBgAAAAAAAAAAAAAdBgAAAAAAAB4GAAAAAAAAAAAAAB4GAAAAAAAAIgYAAAAAAAAAAAAAGQYAAAAAAAAZBgAAAAAAAAQAAAAgICAgGQYAAAAAAAAhBgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAGAYAAAAAAAAYBgAAAAAAAAAAAAAAAPC/"
+					"AwAAAOUAAAAAAAAA5gAAAAAAAAAAAAAA5gAAAAAAAADnAAAAAAAAAAAAAADnAAAAAAAAAOgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5QAAAAAAAADlAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOcAAAAAAAAA5wAAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAA6AAAAAAAAADoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "ndembyt"
+					},
+					"BwAAAOcAAAAAAAAA6AAAAAAAAAAAAAAA6AAAAAAAAADpAAAAAAAAAAAAAADpAAAAAAAAAOoAAAAAAAAAAAAAAOoAAAAAAAAA6wAAAAAAAAAAAAAA6wAAAAAAAADsAAAAAAAAAAAAAADsAAAAAAAAAO0AAAAAAAAAAAAAAO0AAAAAAAAA7gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5wAAAAAAAADnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "es"
+					},
+					"AgAAAO4AAAAAAAAA7wAAAAAAAAAAAAAA7wAAAAAAAADwAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7gAAAAAAAADuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					2,
+					"left_delete",
+					null,
+					"AgAAAPIAAAAAAAAA8gAAAAAAAAABAAAAc/EAAAAAAAAA8QAAAAAAAAABAAAAaQ",
+					"AQAAAAAAAAABAAAA8wAAAAAAAADzAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOwAAAAAAAAA7AAAAAAAAAABAAAAeQ",
+					"AQAAAAAAAAABAAAA7QAAAAAAAADtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "i"
+					},
+					"AQAAAOwAAAAAAAAA7QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7AAAAAAAAADsAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					27,
 					1,
-					"insert",
-					{
-						"characters": "return"
-					},
-					"BgAAACEGAAAAAAAAIgYAAAAAAAAAAAAAIgYAAAAAAAAjBgAAAAAAAAAAAAAjBgAAAAAAACQGAAAAAAAAAAAAACQGAAAAAAAAJQYAAAAAAAAAAAAAJQYAAAAAAAAmBgAAAAAAAAAAAAAmBgAAAAAAACcGAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAIQYAAAAAAAAhBgAAAAAAAAAAAAAAAPC/"
+					"left_delete",
+					null,
+					"AQAAAOwAAAAAAAAA7AAAAAAAAAABAAAAaQ",
+					"AQAAAAAAAAABAAAA7QAAAAAAAADtAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					28,
 					1,
 					"insert",
 					{
-						"characters": " Ok"
+						"characters": "y"
 					},
-					"AwAAACcGAAAAAAAAKAYAAAAAAAAAAAAAKAYAAAAAAAApBgAAAAAAAAAAAAApBgAAAAAAACoGAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAJwYAAAAAAAAnBgAAAAAAAAAAAAAAAPC/"
+					"AQAAAOwAAAAAAAAA7QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7AAAAAAAAADsAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					29,
-					2,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AgAAACoGAAAAAAAALAYAAAAAAAAAAAAAKwYAAAAAAAAtBgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAKgYAAAAAAAAqBgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					32,
-					1,
-					"insert_snippet",
-					{
-						"contents": "[$0]"
-					},
-					"AQAAAC4GAAAAAAAAMAYAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALgYAAAAAAAAuBgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					33,
-					1,
-					"run_macro_file",
-					{
-						"file": "res://Packages/Default/Delete Left Right.sublime-macro"
-					},
-					"AgAAAC4GAAAAAAAALgYAAAAAAAABAAAAWy4GAAAAAAAALgYAAAAAAAABAAAAXQ",
-					"AQAAAAAAAAABAAAALwYAAAAAAAAvBgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					34,
+					31,
 					1,
 					"insert",
 					{
-						"characters": ";"
+						"characters": "com"
 					},
-					"AQAAAC4GAAAAAAAALwYAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALgYAAAAAAAAuBgAAAAAAAAAAAAAAAPC/"
+					"AwAAAPEAAAAAAAAA8gAAAAAAAAAAAAAA8gAAAAAAAADzAAAAAAAAAAAAAADzAAAAAAAAAPQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8QAAAAAAAADxAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					38,
-					1,
-					"run_macro_file",
-					{
-						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
-					},
-					"BgAAAOwEAAAAAAAA7QQAAAAAAAAAAAAA7QQAAAAAAADxBAAAAAAAAAAAAADxBAAAAAAAAPIEAAAAAAAAAAAAAPIEAAAAAAAA9gQAAAAAAAAAAAAA7QQAAAAAAADtBAAAAAAAAAQAAAAgICAg7QQAAAAAAAD1BAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA7AQAAAAAAADsBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					39,
+					47,
 					1,
 					"insert",
 					{
-						"characters": "return"
+						"characters": "https"
 					},
-					"BgAAAPUEAAAAAAAA9gQAAAAAAAAAAAAA9gQAAAAAAAD3BAAAAAAAAAAAAAD3BAAAAAAAAPgEAAAAAAAAAAAAAPgEAAAAAAAA+QQAAAAAAAAAAAAA+QQAAAAAAAD6BAAAAAAAAAAAAAD6BAAAAAAAAPsEAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA9QQAAAAAAAD1BAAAAAAAAAAAAAAAAPC/"
+					"BQAAAOUAAAAAAAAA5gAAAAAAAAAAAAAA5gAAAAAAAADnAAAAAAAAAAAAAADnAAAAAAAAAOgAAAAAAAAAAAAAAOgAAAAAAAAA6QAAAAAAAAAAAAAA6QAAAAAAAADqAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5QAAAAAAAADlAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					40,
+					58,
 					1,
 					"insert",
 					{
-						"characters": " Ok"
+						"characters": "://www"
 					},
-					"AwAAAPsEAAAAAAAA/AQAAAAAAAAAAAAA/AQAAAAAAAD9BAAAAAAAAAAAAAD9BAAAAAAAAP4EAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA+wQAAAAAAAD7BAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					41,
-					2,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AgAAAP4EAAAAAAAAAAUAAAAAAAAAAAAA/wQAAAAAAAABBQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA/gQAAAAAAAD+BAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					43,
-					1,
-					"insert",
-					{
-						"characters": ";"
-					},
-					"AQAAAAIFAAAAAAAAAwUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAgUAAAAAAAACBQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					48,
-					1,
-					"insert",
-					{
-						"characters": "\n\nstruct"
-					},
-					"CAAAAIkBAAAAAAAAigEAAAAAAAAAAAAAigEAAAAAAACLAQAAAAAAAAAAAACLAQAAAAAAAIwBAAAAAAAAAAAAAIwBAAAAAAAAjQEAAAAAAAAAAAAAjQEAAAAAAACOAQAAAAAAAAAAAACOAQAAAAAAAI8BAAAAAAAAAAAAAI8BAAAAAAAAkAEAAAAAAAAAAAAAkAEAAAAAAACRAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAiQEAAAAAAACJAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					49,
-					1,
-					"insert",
-					{
-						"characters": " Uuu"
-					},
-					"BAAAAJEBAAAAAAAAkgEAAAAAAAAAAAAAkgEAAAAAAACTAQAAAAAAAAAAAACTAQAAAAAAAJQBAAAAAAAAAAAAAJQBAAAAAAAAlQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAkQEAAAAAAACRAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					50,
-					1,
-					"left_delete",
-					null,
-					"AQAAAJQBAAAAAAAAlAEAAAAAAAABAAAAdQ",
-					"AQAAAAAAAAABAAAAlQEAAAAAAACVAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					51,
-					1,
-					"insert",
-					{
-						"characters": "id"
-					},
-					"AgAAAJQBAAAAAAAAlQEAAAAAAAAAAAAAlQEAAAAAAACWAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlAEAAAAAAACUAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					52,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAAJYBAAAAAAAAmAEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlgEAAAAAAACWAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					53,
-					1,
-					"insert",
-					{
-						"characters": "s"
-					},
-					"AQAAAJcBAAAAAAAAmAEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlwEAAAAAAACXAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					54,
-					1,
-					"left_delete",
-					null,
-					"AQAAAJcBAAAAAAAAlwEAAAAAAAABAAAAcw",
-					"AQAAAAAAAAABAAAAmAEAAAAAAACYAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					55,
-					1,
-					"insert",
-					{
-						"characters": "String"
-					},
-					"BgAAAJcBAAAAAAAAmAEAAAAAAAAAAAAAmAEAAAAAAACZAQAAAAAAAAAAAACZAQAAAAAAAJoBAAAAAAAAAAAAAJoBAAAAAAAAmwEAAAAAAAAAAAAAmwEAAAAAAACcAQAAAAAAAAAAAACcAQAAAAAAAJ0BAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlwEAAAAAAACXAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					57,
-					1,
-					"insert",
-					{
-						"characters": ";"
-					},
-					"AQAAAJ4BAAAAAAAAnwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAngEAAAAAAACeAQAAAAAAAAAAAAAAAPC/"
+					"BgAAAOoAAAAAAAAA6wAAAAAAAAAAAAAA6wAAAAAAAADsAAAAAAAAAAAAAADsAAAAAAAAAO0AAAAAAAAAAAAAAO0AAAAAAAAA7gAAAAAAAAAAAAAA7gAAAAAAAADvAAAAAAAAAAAAAADvAAAAAAAAAPAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6gAAAAAAAADqAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					59,
 					1,
 					"insert",
 					{
-						"characters": "\n\nstruct"
+						"characters": "/."
 					},
-					"CAAAAJ8BAAAAAAAAoAEAAAAAAAAAAAAAoAEAAAAAAAChAQAAAAAAAAAAAAChAQAAAAAAAKIBAAAAAAAAAAAAAKIBAAAAAAAAowEAAAAAAAAAAAAAowEAAAAAAACkAQAAAAAAAAAAAACkAQAAAAAAAKUBAAAAAAAAAAAAAKUBAAAAAAAApgEAAAAAAAAAAAAApgEAAAAAAACnAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAnwEAAAAAAACfAQAAAAAAAAAAAAAAAPC/"
+					"AgAAAPAAAAAAAAAA8QAAAAAAAAAAAAAA8QAAAAAAAADyAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8AAAAAAAAADwAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					60,
-					1,
-					"insert",
-					{
-						"characters": " Player"
-					},
-					"BwAAAKcBAAAAAAAAqAEAAAAAAAAAAAAAqAEAAAAAAACpAQAAAAAAAAAAAACpAQAAAAAAAKoBAAAAAAAAAAAAAKoBAAAAAAAAqwEAAAAAAAAAAAAAqwEAAAAAAACsAQAAAAAAAAAAAACsAQAAAAAAAK0BAAAAAAAAAAAAAK0BAAAAAAAArgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAApwEAAAAAAACnAQAAAAAAAAAAAAAAAPC/"
+					2,
+					"left_delete",
+					null,
+					"AgAAAPEAAAAAAAAA8QAAAAAAAAABAAAALvAAAAAAAAAA8AAAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAA8gAAAAAAAADyAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					61,
-					6,
-					"left_delete",
-					null,
-					"BgAAAK0BAAAAAAAArQEAAAAAAAABAAAAcqwBAAAAAAAArAEAAAAAAAABAAAAZasBAAAAAAAAqwEAAAAAAAABAAAAeaoBAAAAAAAAqgEAAAAAAAABAAAAYakBAAAAAAAAqQEAAAAAAAABAAAAbKgBAAAAAAAAqAEAAAAAAAABAAAAUA",
-					"AQAAAAAAAAABAAAArgEAAAAAAACuAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					62,
 					1,
 					"insert",
 					{
-						"characters": "Queue"
+						"characters": "."
 					},
-					"BQAAAKgBAAAAAAAAqQEAAAAAAAAAAAAAqQEAAAAAAACqAQAAAAAAAAAAAACqAQAAAAAAAKsBAAAAAAAAAAAAAKsBAAAAAAAArAEAAAAAAAAAAAAArAEAAAAAAACtAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAqAEAAAAAAACoAQAAAAAAAAAAAAAAAPC/"
-				],
+					"AQAAAPAAAAAAAAAA8QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8AAAAAAAAADwAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "src/layouts/dashboard/+layout.svelte",
+			"settings":
+			{
+				"buffer_size": 1164,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
 				[
-					63,
+					5,
+					1,
+					"insert",
+					{
+						"characters": "/.."
+					},
+					"AwAAADMAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA1AAAAAAAAAAAAAAA1AAAAAAAAADYAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMwAAAAAAAAAzAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "src/layouts/editor/+layout.svelte",
+			"redo_stack":
+			[
+				[
+					31,
 					1,
 					"insert_snippet",
 					{
 						"contents": "($0)"
 					},
-					"AQAAAK0BAAAAAAAArwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAArQEAAAAAAACtAQAAAAAAAAAAAAAAAPC/"
+					"AQAAAJQEAAAAAAAAlAQAAAAAAAACAAAAKCk",
+					"AQAAAAAAAAABAAAAlQQAAAAAAACVBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					64,
-					1,
-					"insert",
-					{
-						"characters": "u32"
-					},
-					"AwAAAK4BAAAAAAAArwEAAAAAAAAAAAAArwEAAAAAAACwAQAAAAAAAAAAAACwAQAAAAAAALEBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAArgEAAAAAAACuAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					66,
-					1,
-					"insert",
-					{
-						"characters": ";"
-					},
-					"AQAAALIBAAAAAAAAswEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAsgEAAAAAAACyAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					67,
-					1,
-					"insert_snippet",
-					{
-						"contents": "'"
-					},
-					"AQAAALMBAAAAAAAAtAEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAswEAAAAAAACzAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					69,
-					1,
-					"left_delete",
-					null,
-					"AQAAALMBAAAAAAAAswEAAAAAAAABAAAAJw",
-					"AQAAAAAAAAABAAAAtAEAAAAAAAC0AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					70,
-					1,
-					"insert",
-					{
-						"characters": ";"
-					},
-					"AQAAALMBAAAAAAAAtAEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAswEAAAAAAACzAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					71,
-					1,
-					"left_delete",
-					null,
-					"AQAAALMBAAAAAAAAswEAAAAAAAABAAAAOw",
-					"AQAAAAAAAAABAAAAtAEAAAAAAAC0AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					73,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"AgAAALMBAAAAAAAAtAEAAAAAAAAAAAAAtAEAAAAAAAC1AQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAswEAAAAAAACzAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					74,
-					2,
-					"left_delete",
-					null,
-					"AgAAALQBAAAAAAAAtAEAAAAAAAABAAAACrMBAAAAAAAAswEAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAtQEAAAAAAAC1AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					78,
-					1,
-					"insert",
-					{
-						"characters": "!"
-					},
-					"AQAAAK0BAAAAAAAArgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAArQEAAAAAAACtAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					79,
-					1,
-					"left_delete",
-					null,
-					"AQAAAK0BAAAAAAAArQEAAAAAAAABAAAAIQ",
-					"AQAAAAAAAAABAAAArgEAAAAAAACuAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					80,
-					1,
-					"insert",
-					{
-						"characters": "Queu"
-					},
-					"BAAAAK0BAAAAAAAArgEAAAAAAAAAAAAArgEAAAAAAACvAQAAAAAAAAAAAACvAQAAAAAAALABAAAAAAAAAAAAALABAAAAAAAAsQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAArQEAAAAAAACtAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					81,
-					1,
-					"left_delete",
-					null,
-					"AQAAALABAAAAAAAAsAEAAAAAAAABAAAAdQ",
-					"AQAAAAAAAAABAAAAsQEAAAAAAACxAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					93,
-					3,
-					"left_delete",
-					null,
-					"AwAAAK8BAAAAAAAArwEAAAAAAAABAAAAZa4BAAAAAAAArgEAAAAAAAABAAAAda0BAAAAAAAArQEAAAAAAAABAAAAUQ",
-					"AQAAAAAAAAABAAAAsAEAAAAAAACwAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					95,
-					1,
-					"insert",
-					{
-						"characters": "s"
-					},
-					"AQAAAK0BAAAAAAAArgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAArQEAAAAAAACtAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					104,
-					1,
-					"insert",
-					{
-						"characters": "Hah"
-					},
-					"BAAAAK8BAAAAAAAAsAEAAAAAAAAAAAAAsAEAAAAAAACwAQAAAAAAAAMAAAB1MzKwAQAAAAAAALEBAAAAAAAAAAAAALEBAAAAAAAAsgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAArwEAAAAAAACyAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					105,
-					1,
-					"left_delete",
-					null,
-					"AQAAALEBAAAAAAAAsQEAAAAAAAABAAAAaA",
-					"AQAAAAAAAAABAAAAsgEAAAAAAACyAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					106,
-					1,
-					"insert",
-					{
-						"characters": "sgh"
-					},
-					"AwAAALEBAAAAAAAAsgEAAAAAAAAAAAAAsgEAAAAAAACzAQAAAAAAAAAAAACzAQAAAAAAALQBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAsQEAAAAAAACxAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					107,
-					2,
-					"left_delete",
-					null,
-					"AgAAALMBAAAAAAAAswEAAAAAAAABAAAAaLIBAAAAAAAAsgEAAAAAAAABAAAAZw",
-					"AQAAAAAAAAABAAAAtAEAAAAAAAC0AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					108,
-					1,
-					"insert",
-					{
-						"characters": "hamp"
-					},
-					"BAAAALIBAAAAAAAAswEAAAAAAAAAAAAAswEAAAAAAAC0AQAAAAAAAAAAAAC0AQAAAAAAALUBAAAAAAAAAAAAALUBAAAAAAAAtgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAsgEAAAAAAACyAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					109,
-					3,
-					"left_delete",
-					null,
-					"AwAAALUBAAAAAAAAtQEAAAAAAAABAAAAcLQBAAAAAAAAtAEAAAAAAAABAAAAbbMBAAAAAAAAswEAAAAAAAABAAAAYQ",
-					"AQAAAAAAAAABAAAAtgEAAAAAAAC2AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					110,
-					1,
-					"insert",
-					{
-						"characters": "Map<"
-					},
-					"BAAAALMBAAAAAAAAtAEAAAAAAAAAAAAAtAEAAAAAAAC1AQAAAAAAAAAAAAC1AQAAAAAAALYBAAAAAAAAAAAAALYBAAAAAAAAtwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAswEAAAAAAACzAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					111,
-					1,
-					"insert",
-					{
-						"characters": "String,"
-					},
-					"BwAAALcBAAAAAAAAuAEAAAAAAAAAAAAAuAEAAAAAAAC5AQAAAAAAAAAAAAC5AQAAAAAAALoBAAAAAAAAAAAAALoBAAAAAAAAuwEAAAAAAAAAAAAAuwEAAAAAAAC8AQAAAAAAAAAAAAC8AQAAAAAAAL0BAAAAAAAAAAAAAL0BAAAAAAAAvgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAtwEAAAAAAAC3AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					112,
-					1,
-					"insert",
-					{
-						"characters": " V"
-					},
-					"AgAAAL4BAAAAAAAAvwEAAAAAAAAAAAAAvwEAAAAAAADAAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAvgEAAAAAAAC+AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					113,
+					30,
 					1,
 					"insert_completion",
 					{
-						"completion": "lsp_select_completion_item {\"session_name\":\"rust-analyzer\",\"item\":{\"kind\":22,\"labelDetails\":{},\"sortText\":\"ffffffef\",\"insertTextFormat\":2,\"documentation\":{\"value\":\"A double-ended queue implemented with a growable ring buffer.\\n\\nThe \\\"default\\\" usage of this type as a queue is to use [`push_back`] to add to\\nthe queue, and [`pop_front`] to remove from the queue. [`extend`] and [`append`]\\npush onto the back in this manner, and iterating over `VecDeque` goes front\\nto back.\\n\\nA `VecDeque` with a known list of items can be initialized from an array:\\n\\n```rust\\nuse std::collections::VecDeque;\\n\\nlet deq = VecDeque::from([-1, 0, 1]);\\n```\\n\\nSince `VecDeque` is a ring buffer, its elements are not necessarily contiguous\\nin memory. If you want to access the elements as a single slice, such as for\\nefficient sorting, you can use [`make_contiguous`]. It rotates the `VecDeque`\\nso that its elements do not wrap, and returns a mutable slice to the\\nnow-contiguous element sequence.\\n\\n[`push_back`]: VecDeque::push_back\\n[`pop_front`]: VecDeque::pop_front\\n[`extend`]: VecDeque::extend\\n[`append`]: VecDeque::append\\n[`make_contiguous`]: VecDeque::make_contiguous\",\"kind\":\"markdown\"},\"command\":{\"title\":\"triggerParameterHints\",\"command\":\"editor.action.triggerParameterHints\"},\"preselect\":true,\"textEdit\":{\"replace\":{\"end\":{\"character\":31,\"line\":21},\"start\":{\"character\":30,\"line\":21}},\"newText\":\"VecDeque<$0>\",\"insert\":{\"end\":{\"character\":31,\"line\":21},\"start\":{\"character\":30,\"line\":21}}},\"label\":\"VecDeque<…>\",\"deprecated\":false,\"additionalTextEdits\":[],\"filterText\":\"VecDeque\"}}",
+						"completion": "lsp_select_completion_item {\"session_name\":\"LSP-svelte\",\"item\":{\"commitCharacters\":[\".\",\",\",\"(\"],\"data\":{\"replacementSpan\":{\"start\":1208,\"length\":3},\"kind\":\"method\",\"name\":\"toString\",\"uri\":\"file:///f%3A/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor/%2Blayout.svelte\",\"position\":{\"line\":46,\"character\":60},\"kindModifiers\":\"declare\",\"sortText\":\"11\",\"insertText\":\"?.toString\"},\"kind\":2,\"additionalTextEdits\":[{\"newText\":\"?\",\"range\":{\"start\":{\"line\":46,\"character\":57},\"end\":{\"line\":46,\"character\":58}}}],\"textEdit\":{\"newText\":\".toString\",\"range\":{\"start\":{\"line\":46,\"character\":58},\"end\":{\"line\":46,\"character\":60}}},\"label\":\"toString\",\"sortText\":\"11\",\"insertText\":\"?.toString\"}}",
 						"format": "command",
 						"keep_prefix": true,
 						"must_insert": false,
 						"query_change_id":
 						[
-							77,
-							112,
-							2
+							15,
+							29,
+							3
 						],
-						"trigger": "VecDeque<…>"
+						"trigger": "toString"
 					},
-					"AgAAAL8BAAAAAAAAvwEAAAAAAAABAAAAVr8BAAAAAAAAyQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAwAEAAAAAAADAAQAAAAAAAAAAAAAAAPC/"
+					"AwAAAIoEAAAAAAAAiwQAAAAAAAABAAAAP4sEAAAAAAAAiwQAAAAAAAAJAAAALnRvU3RyaW5niwQAAAAAAACNBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlAQAAAAAAACUBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					116,
+					29,
 					1,
 					"insert",
 					{
-						"characters": ">"
+						"characters": ".to"
 					},
-					"AQAAAMkBAAAAAAAAygEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAyQEAAAAAAADJAQAAAAAAAAAAAAAAAPC/"
+					"AwAAAIwEAAAAAAAAjAQAAAAAAAABAAAAb4sEAAAAAAAAiwQAAAAAAAABAAAAdIoEAAAAAAAAigQAAAAAAAABAAAALg",
+					"AQAAAAAAAAABAAAAjQQAAAAAAACNBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					118,
+					19,
 					1,
 					"insert",
 					{
-						"characters": "String"
+						"characters": "env."
 					},
-					"BgAAAMgBAAAAAAAAyQEAAAAAAAAAAAAAyQEAAAAAAADKAQAAAAAAAAAAAADKAQAAAAAAAMsBAAAAAAAAAAAAAMsBAAAAAAAAzAEAAAAAAAAAAAAAzAEAAAAAAADNAQAAAAAAAAAAAADNAQAAAAAAAM4BAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAyAEAAAAAAADIAQAAAAAAAAAAAAAAAPC/"
+					"BAAAAHQEAAAAAAAAdAQAAAAAAAABAAAALnMEAAAAAAAAcwQAAAAAAAABAAAAdnIEAAAAAAAAcgQAAAAAAAABAAAAbnEEAAAAAAAAcQQAAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAAdQQAAAAAAAB1BAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					122,
-					1,
-					"lsp_apply_document_edit",
-					{
-						"changes":
-						[
-							[
-								[
-									21,
-									49
-								],
-								[
-									21,
-									49
-								],
-								"\n\nimpl Queues {\n    pub fn keys(&self) -> Keys<'_, K, V> {\n        self.0.keys()\n    }\n}",
-								154
-							]
-						]
-					},
-					"AQAAANIBAAAAAAAAKgIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA0AEAAAAAAADQAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					128,
-					1,
-					"rust_accept_suggested_replacement",
-					{
-						"region":
-						[
-							472,
-							472
-						],
-						"replacement": "<K>"
-					},
-					"AQAAANgBAAAAAAAA2wEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAnwEAAAAAAACfAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					129,
-					1,
-					"rust_accept_suggested_replacement",
-					{
-						"region":
-						[
-							475,
-							475
-						],
-						"replacement": "<V>"
-					},
-					"AQAAANsBAAAAAAAA3gEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAnwEAAAAAAACfAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					133,
-					2,
-					"left_delete",
-					null,
-					"AgAAANsBAAAAAAAA2wEAAAAAAAABAAAAPNoBAAAAAAAA2gEAAAAAAAABAAAAPg",
-					"AQAAAAAAAAABAAAA3AEAAAAAAADcAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					134,
+					18,
 					1,
 					"insert",
 					{
-						"characters": ","
+						"characters": "process."
 					},
-					"AQAAANoBAAAAAAAA2wEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2gEAAAAAAADaAQAAAAAAAAAAAAAAAPC/"
-				],
+					"CAAAAHAEAAAAAAAAcAQAAAAAAAABAAAALm8EAAAAAAAAbwQAAAAAAAABAAAAc24EAAAAAAAAbgQAAAAAAAABAAAAc20EAAAAAAAAbQQAAAAAAAABAAAAZWwEAAAAAAAAbAQAAAAAAAABAAAAY2sEAAAAAAAAawQAAAAAAAABAAAAb2oEAAAAAAAAagQAAAAAAAABAAAAcmkEAAAAAAAAaQQAAAAAAAABAAAAcA",
+					"AQAAAAAAAAABAAAAcQQAAAAAAABxBAAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 2610,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
 				[
-					135,
+					4,
 					1,
 					"insert",
 					{
-						"characters": " "
+						"characters": "../"
 					},
-					"AQAAANsBAAAAAAAA3AEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2wEAAAAAAADbAQAAAAAAAAAAAAAAAPC/"
+					"AwAAAG0AAAAAAAAAbgAAAAAAAAAAAAAAbgAAAAAAAABvAAAAAAAAAAAAAABvAAAAAAAAAHAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbQAAAAAAAABtAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					142,
+					7,
 					1,
 					"insert",
 					{
-						"characters": "<K"
+						"characters": "../"
 					},
-					"AgAAAOUBAAAAAAAA5gEAAAAAAAAAAAAA5gEAAAAAAADnAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA5QEAAAAAAADlAQAAAAAAAAAAAAAAAPC/"
+					"AwAAALkAAAAAAAAAugAAAAAAAAAAAAAAugAAAAAAAAC7AAAAAAAAAAAAAAC7AAAAAAAAALwAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQAAAAAAAAC5AAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					143,
+					12,
 					1,
 					"insert",
 					{
-						"characters": ","
+						"characters": "../"
 					},
-					"AQAAAOcBAAAAAAAA6AEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA5wEAAAAAAADnAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					144,
-					1,
-					"insert",
-					{
-						"characters": " V>"
-					},
-					"AwAAAOgBAAAAAAAA6QEAAAAAAAAAAAAA6QEAAAAAAADqAQAAAAAAAAAAAADqAQAAAAAAAOsBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA6AEAAAAAAADoAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					148,
-					1,
-					"insert",
-					{
-						"characters": "<K,"
-					},
-					"AwAAAK4BAAAAAAAArwEAAAAAAAAAAAAArwEAAAAAAACwAQAAAAAAAAAAAACwAQAAAAAAALEBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAArgEAAAAAAACuAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					149,
-					1,
-					"insert",
-					{
-						"characters": " v"
-					},
-					"AgAAALEBAAAAAAAAsgEAAAAAAAAAAAAAsgEAAAAAAACzAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAsQEAAAAAAACxAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					150,
-					1,
-					"left_delete",
-					null,
-					"AQAAALIBAAAAAAAAsgEAAAAAAAABAAAAdg",
-					"AQAAAAAAAAABAAAAswEAAAAAAACzAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					151,
-					1,
-					"insert",
-					{
-						"characters": "V>"
-					},
-					"AgAAALIBAAAAAAAAswEAAAAAAAAAAAAAswEAAAAAAAC0AQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAsgEAAAAAAACyAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					163,
-					1,
-					"left_delete",
-					null,
-					"AQAAANcBAAAAAAAA1wEAAAAAAAABAAAAOw",
-					"AQAAAAAAAAABAAAA2AEAAAAAAADYAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					164,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAANcBAAAAAAAA2AEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA1wEAAAAAAADXAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					165,
-					1,
-					"insert_snippet",
-					{
-						"contents": "{$0}"
-					},
-					"AQAAANgBAAAAAAAA2gEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2AEAAAAAAADYAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					170,
-					3,
-					"left_delete",
-					null,
-					"AwAAANkBAAAAAAAA2QEAAAAAAAABAAAAfdgBAAAAAAAA2AEAAAAAAAABAAAAe9cBAAAAAAAA1wEAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAA2gEAAAAAAADaAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					176,
-					1,
-					"insert",
-					{
-						"characters": "K"
-					},
-					"AgAAAL0BAAAAAAAAvgEAAAAAAAAAAAAAvgEAAAAAAAC+AQAAAAAAAAYAAABTdHJpbmc",
-					"AQAAAAAAAAABAAAAvQEAAAAAAADDAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					181,
-					1,
-					"insert",
-					{
-						"characters": "V"
-					},
-					"AgAAAMkBAAAAAAAAygEAAAAAAAAAAAAAygEAAAAAAADKAQAAAAAAAAYAAABTdHJpbmc",
-					"AQAAAAAAAAABAAAAyQEAAAAAAADPAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					188,
-					1,
-					"lsp_apply_document_edit",
-					{
-						"changes":
-						[
-							[
-								[
-									1,
-									35
-								],
-								[
-									1,
-									35
-								],
-								",",
-								191
-							],
-							[
-								[
-									1,
-									35
-								],
-								[
-									1,
-									35
-								],
-								" ",
-								191
-							],
-							[
-								[
-									1,
-									35
-								],
-								[
-									1,
-									35
-								],
-								"btree_map::Keys",
-								191
-							]
-						]
-					},
-					"AwAAAC4AAAAAAAAAPQAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAAuAAAAAAAAAC8AAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAABgIAAAAAAAAGAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					192,
-					1,
-					"rust_accept_suggested_replacement",
-					{
-						"region":
-						[
-							478,
-							478
-						],
-						"replacement": ";"
-					},
-					"AQAAAN4BAAAAAAAA3wEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAFwIAAAAAAAAXAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					202,
-					1,
-					"insert",
-					{
-						"characters": "return"
-					},
-					"BgAAAC4CAAAAAAAALwIAAAAAAAAAAAAALwIAAAAAAAAwAgAAAAAAAAAAAAAwAgAAAAAAADECAAAAAAAAAAAAADECAAAAAAAAMgIAAAAAAAAAAAAAMgIAAAAAAAAzAgAAAAAAAAAAAAAzAgAAAAAAADQCAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALgIAAAAAAAAuAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					203,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAADQCAAAAAAAANQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANAIAAAAAAAA0AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					206,
-					1,
-					"insert",
-					{
-						"characters": ";"
-					},
-					"AQAAAEICAAAAAAAAQwIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAQgIAAAAAAABCAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					222,
-					1,
-					"insert",
-					{
-						"characters": "hash"
-					},
-					"BQAAADAAAAAAAAAAMQAAAAAAAAAAAAAAMQAAAAAAAAAxAAAAAAAAAAUAAABidHJlZTEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADQAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANQAAAAAAAAAwAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					232,
-					1,
-					"left_delete",
-					null,
-					"AQAAANABAAAAAAAA0AEAAAAAAAAJAAAAVmVjRGVxdWU8",
-					"AQAAAAAAAAABAAAA2QEAAAAAAADQAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					235,
-					1,
-					"left_delete",
-					null,
-					"AQAAANEBAAAAAAAA0QEAAAAAAAABAAAAPg",
-					"AQAAAAAAAAABAAAA0gEAAAAAAADSAQAAAAAAAAAAAAAAAPC/"
+					"AwAAAAQBAAAAAAAABQEAAAAAAAAAAAAABQEAAAAAAAAGAQAAAAAAAAAAAAAGAQAAAAAAAAcBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABAEAAAAAAAAEAQAAAAAAAAAAAAAAAPC/"
 				]
 			]
+		},
+		{
+			"file": "src/layouts/dashboard/+layout.ts",
+			"settings":
+			{
+				"buffer_size": 225,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -1400,6 +871,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"res",
+				"LSP: Restart Server"
+			],
 			[
 				"rest",
 				"LSP: Restart Server"
@@ -1572,32 +1047,30 @@
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/api",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/markdown",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/markdown/[slug]",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src-brio",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src-brio/src",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src-brio/src/shared",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src-brio/src/shared/data",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune/src",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune/src/models",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune/src/models/ecd"
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]"
 	],
 	"file_history":
 	[
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/+error.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor/+error.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/EditorLayout.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/ContentReactLayout.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/api/app.config.mjs",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune/src/models/ecd/buffer_layer_mgr.rs",
+		"/F/Users/Amstel/workspaces/jejune/jejune/.env",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/+layout.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/+layout.ts",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune/src/models/mod.rs",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune/src/models/ecd/mod.rs",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune/src/ctls/mod.rs",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src-jejune/src/ctls/lex_morpho_ctl.rs",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor/+error.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]/+page.svelte",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/+error.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor/+layout.ts",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/+layout.ts",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/+layout.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor/+layout.svelte",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/EditorLayout.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/markdown/[slug]/+page.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/index.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/components/Card/Card.svelte",
@@ -1608,7 +1081,6 @@
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/components/Frontmatter/Frontmatter.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/components/LeftSidebar/LeftSidebar.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/components/Sidebar/Sidebar.svelte",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/ContentReactLayout.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/api/+server.ts",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/markdown/[slug]/+page.ts",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src-brio/src/shared/data/trading_sys_sqli.rs",
@@ -1709,20 +1181,20 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src-jejune/src/models/ecd/buffer_layer_mgr.rs",
+					"file": "src/routes/spreadsheet/[slug]/+layout.svelte",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1803,
+						"buffer_size": 271,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1189,
-								1189
+								257,
+								257
 							]
 						],
 						"settings":
@@ -1730,27 +1202,421 @@
 							"auto_complete_triggers":
 							[
 								{
-									"characters": ".:",
-									"selector": "source.rust"
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
 								},
 								{
-									"characters": ":.'(",
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.cuda-c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".\"'`/@<>*#$+^([@-:|",
 									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
-									"server": "rust-analyzer"
+									"server": "LSP-svelte"
 								}
 							],
 							"lsp_active": true,
 							"lsp_hover_provider_count": 1,
-							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src-jejune/src/models/ecd/buffer_layer_mgr.rs",
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%5Bslug%5D/%2Blayout.svelte",
 							"show_definitions": false,
-							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
-							"tab_size": 4
+							"syntax": "Packages/Svelte/Svelte.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1479.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/routes/spreadsheet/[slug]/+layout.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.cuda-c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".\"'/@<",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-typescript"
+								}
+							],
+							"lsp_active": true,
+							"lsp_hover_provider_count": 1,
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%5Bslug%5D/%2Blayout.ts",
+							"show_definitions": false,
+							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/routes/spreadsheet/[slug]/+page.svelte",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								366
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.cuda-c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".\"'`/@<>*#$+^([@-:|",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-svelte"
+								}
+							],
+							"lsp_active": true,
+							"lsp_hover_provider_count": 1,
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%5Bslug%5D/%2Bpage.svelte",
+							"show_definitions": false,
+							"syntax": "Packages/Svelte/Svelte.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/routes/spreadsheet/[slug]/+page.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.cuda-c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".\"'/@<",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-typescript"
+								}
+							],
+							"lsp_active": true,
+							"lsp_hover_provider_count": 1,
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%5Bslug%5D/%2Bpage.ts",
+							"show_definitions": false,
+							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/layouts/dashboard/+layout.svelte",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.cuda-c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".\"'`/@<>*#$+^([@-:|",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-svelte"
+								}
+							],
+							"lsp_active": true,
+							"lsp_hover_provider_count": 1,
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/%2Blayout.svelte",
+							"show_definitions": false,
+							"syntax": "Packages/Svelte/Svelte.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 20.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/layouts/editor/+layout.svelte",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1076,
+								1076
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.cuda-c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".\"'`/@<>*#$+^([@-:|",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-svelte"
+								}
+							],
+							"lsp_active": true,
+							"lsp_hover_provider_count": 1,
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor/%2Blayout.svelte",
+							"show_definitions": false,
+							"syntax": "Packages/Svelte/Svelte.sublime-syntax",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/layouts/dashboard/+layout.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.cuda-c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".\"'/@<",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-typescript"
+								}
+							],
+							"lsp_active": true,
+							"lsp_hover_provider_count": 1,
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/%2Blayout.ts",
+							"show_definitions": false,
+							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"stack_multiselect": false,
 					"type": "text"
 				}

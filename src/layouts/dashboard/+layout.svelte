@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import ImmutableModel from '../models/faas/DashboardModel.svelte'
+  import ImmutableModel from '../../models/faas/DashboardModel.svelte'
   import { beforeUpdate } from 'svelte'
 
   export let items: any = [

@@ -7,7 +7,7 @@ export const load: PageLoad = ({ params }) => {
   }
 
   return {
-    title: 'tandembytes.com',
+    title: 'https://www.tandembytes.com',
     content: ''
   }
 }
