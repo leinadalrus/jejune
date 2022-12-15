@@ -1,2 +1,2 @@
 # jejune-app
- BaaS for Britomart web-app: Morphological Lexer and Translator
+ BaaS for TandemBytes web-app: Morphological Lexer and Translator
