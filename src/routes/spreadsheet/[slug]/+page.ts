@@ -7,7 +7,7 @@ export const load: PageLoad = ({ params }) => {
   }
 
   return {
-    title: 'Britomart.is',
+    title: 'tandembytes.com',
     content: ''
   }
 }

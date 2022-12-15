@@ -1,7 +1,7 @@
 export const SITE = {
   name: 'Brio',
 
-  origin: 'https://britomart.com',
+  origin: 'https://www.tandembytes.com',
   basePathname: '/',
 
   // title: 'AstroWind — Your website with Astro + Tailwind CSS',

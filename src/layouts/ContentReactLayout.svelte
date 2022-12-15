@@ -9,7 +9,7 @@
     { id: 0, done: true, body: '' }
   ]
   $: url = items.type === 'ask' ? 
-    `https://story.brio.app/${items.id}` : 
+    `https://www.tandembytes.com/${items.id}` : 
       items.urls
 
   function commentBody () {

@@ -16,7 +16,7 @@ const currentFile = `src/routes${currentPage.replace(/\/$/, '')}.md`
 const pages = {
   undefined: {
     title: 'Brio',
-    text: 'Hello! And Welcome to Brio!',
+    text: 'Hello! And Welcome to TandemBytes!',
   },
   'homepage': {
     title: 'My Homepage',
