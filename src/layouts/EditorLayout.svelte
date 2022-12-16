@@ -1,6 +1,6 @@
 <script lang='ts'>
 import { VITE_SUPABASE_PUB_URL } from '$env/static/private';
-
+import HeaderMeta from 'src/routes/components/HeaderMeta/HeaderMeta.svelte'
 import ContentBody from '../routes/components/ContentBody/ContentBody.svelte'
 import Footer from '../routes/components/Footer/FooterMeta.svelte'
 import Frontmatter from '../routes/components/Frontmatter/Frontmatter.svelte'
@@ -47,16 +47,16 @@ const pages = {
 if (!pages) new Request(VITE_SUPABASE_PUB_URL)
 </script>
 
-<html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'en-uk'} class="initial">
-  <HeaderMeta frontmatter={frontmatter} />
+<html dir={frontmatter ?? 'ltr'} lang={frontmatter ?? 'en-uk'} class="initial">
+  <HeaderMeta />
   <title>
-    {frontmatter.title}
+    {frontmatter}
   </title>
 
   <body class="md:container md:mx-auto px-4 overscroll-auto hover:overscroll-contain">
     <article class="grid grid-cols-1">
       <main>
-        <ContentBody frontmatter={frontmatter} />
+        <ContentBody />
       </main>
 
       <aside>

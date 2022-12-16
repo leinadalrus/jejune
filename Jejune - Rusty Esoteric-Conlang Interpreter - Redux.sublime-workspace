@@ -520,43 +520,46 @@
 	"buffers":
 	[
 		{
-			"file": "src/routes/spreadsheet/[slug]/+error.svelte",
+			"file": "src/routes/spreadsheet/+error.svelte",
 			"settings":
 			{
 				"buffer_size": 108,
-				"line_ending": "Windows"
-			}
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
 		},
 		{
-			"file": "src/routes/spreadsheet/[slug]/+layout.svelte",
+			"file": "src/routes/spreadsheet/+layout.svelte",
 			"settings":
 			{
 				"buffer_size": 271,
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/routes/spreadsheet/[slug]/+layout.ts",
+			"file": "src/routes/spreadsheet/+layout.ts",
 			"settings":
 			{
 				"buffer_size": 282,
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/routes/spreadsheet/[slug]/+page.svelte",
+			"file": "src/routes/spreadsheet/+page.svelte",
 			"settings":
 			{
 				"buffer_size": 366,
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/routes/spreadsheet/[slug]/+page.ts",
+			"file": "src/routes/spreadsheet/+page.ts",
 			"settings":
 			{
 				"buffer_size": 280,
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -745,21 +748,33 @@
 		"/F/Users/Amstel/workspaces/jejune/jejune/src",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]"
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet"
 	],
 	"file_history":
 	[
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/+page.ts",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/+layout.ts",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/+layout.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/+error.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/+page.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/services/activity/ActivityCalendarDirector.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/dashboard/[slug]/+page.ts",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/dashboard/+page.ts",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/dashboard/+page.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/dashboard/+layout.ts",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/dashboard/+layout.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/dashboard/+error.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]/+page.ts",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]/+page.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]/+layout.ts",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]/+layout.svelte",
+		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]/+error.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/+layout.ts",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor/+layout.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/+layout.svelte",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]/+page.ts",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]/+page.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/markdown/[slug]/+layout.ts",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]/+layout.ts",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/+page.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/404.svelte",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]/+layout.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/api/postings.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/dashboard/+error.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/layouts/editor/+error.svelte",
@@ -793,7 +808,6 @@
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/app/components/LeftSidebar/LeftSidebar.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/app/components/ContentBody/ContentBody.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/app/users/accounts/Account.svelte",
-		"/F/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/[slug]/+error.svelte",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src/app/api/client/cloudflareWorkers.js",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src-brio/src/lib.rs",
 		"/F/Users/Amstel/workspaces/jejune/jejune/src-brio/src/shared/data/trading_sys_sqlx.rs",
@@ -880,7 +894,8 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/routes/spreadsheet/[slug]/+error.svelte",
+					"file": "src/routes/spreadsheet/+error.svelte",
+					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
@@ -891,8 +906,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								108,
+								108
 							]
 						],
 						"settings":
@@ -927,7 +942,7 @@
 							],
 							"lsp_active": true,
 							"lsp_hover_provider_count": 1,
-							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%5Bslug%5D/%2Berror.svelte",
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%2Berror.svelte",
 							"show_definitions": false,
 							"syntax": "Packages/Svelte/Svelte.sublime-syntax",
 							"tab_size": 2,
@@ -937,13 +952,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/routes/spreadsheet/[slug]/+layout.svelte",
+					"file": "src/routes/spreadsheet/+layout.svelte",
 					"semi_transient": false,
 					"settings":
 					{
@@ -990,7 +1005,7 @@
 							],
 							"lsp_active": true,
 							"lsp_hover_provider_count": 1,
-							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%5Bslug%5D/%2Blayout.svelte",
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%2Blayout.svelte",
 							"show_definitions": false,
 							"syntax": "Packages/Svelte/Svelte.sublime-syntax",
 							"tab_size": 2,
@@ -1000,13 +1015,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/routes/spreadsheet/[slug]/+layout.ts",
+					"file": "src/routes/spreadsheet/+layout.ts",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1053,7 +1068,7 @@
 							],
 							"lsp_active": true,
 							"lsp_hover_provider_count": 1,
-							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%5Bslug%5D/%2Blayout.ts",
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%2Blayout.ts",
 							"show_definitions": false,
 							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
 							"tab_size": 2,
@@ -1063,13 +1078,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "src/routes/spreadsheet/[slug]/+page.svelte",
+					"file": "src/routes/spreadsheet/+page.svelte",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1116,7 +1131,7 @@
 							],
 							"lsp_active": true,
 							"lsp_hover_provider_count": 1,
-							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%5Bslug%5D/%2Bpage.svelte",
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%2Bpage.svelte",
 							"show_definitions": false,
 							"syntax": "Packages/Svelte/Svelte.sublime-syntax",
 							"tab_size": 2,
@@ -1126,14 +1141,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "src/routes/spreadsheet/[slug]/+page.ts",
-					"selected": true,
+					"file": "src/routes/spreadsheet/+page.ts",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1180,7 +1194,7 @@
 							],
 							"lsp_active": true,
 							"lsp_hover_provider_count": 1,
-							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%5Bslug%5D/%2Bpage.ts",
+							"lsp_uri": "file:///F:/Users/Amstel/workspaces/jejune/jejune/src/routes/spreadsheet/%2Bpage.ts",
 							"show_definitions": false,
 							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
 							"tab_size": 2,
@@ -1190,7 +1204,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"stack_multiselect": false,
 					"type": "text"
 				}
