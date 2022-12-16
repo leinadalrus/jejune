@@ -7,7 +7,7 @@ import { json } from '@sveltejs/kit'
 import Card from '../../components/Card/Card.svelte'
 import ContentBody from '../../components/ContentBody/ContentBody.svelte'
   
-import DeliveredInitialization from '../../utils/login.js'
+import DeliveredInitialization from '../auths/Login.svelte'
 
 // const dispatch = createEventDispatcher() // just make this into a reactive function [!]
 export let Account
@@ -15,7 +15,7 @@ export let Account
 // NOTE(authenitcate): originally this was a function and turned this into a-
 $: authenticate = (event: any)=>{ // -labeled lambda directive/attr...
   const cookie = document.cookie
-  if (!DeliveredInitialization(cookie)) {
+  if (!new DeliveredInitialization(cookie)) {
     return json({ 
       headers: { Location: '/users/auths/login' }, 
       status: 302

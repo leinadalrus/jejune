@@ -1,6 +1,6 @@
 <script lang='ts'>
-  import ImmutableModel from '../../models/faas/DashboardModel.svelte'
   import { beforeUpdate } from 'svelte'
+  import DashboardModel from '../../models/faas/DashboardModel.svelte';
 
   export let items: any = [
     { user: '', content: '', commentsCount: 1, timeAgo: Date.now() }
@@ -33,7 +33,8 @@
 </script>
 
 {#each inputs as input}
-  <ImmutableModel {input} on:click='{() => toggle(input.id)}'/>
+  <input type="checkbox" bind:group={input} on:click='{() => toggle(input.id)}'/>
+  {input}
 {/each}
 
 <article>
