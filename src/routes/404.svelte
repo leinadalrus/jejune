@@ -1,7 +1,7 @@
 <script>
 import EditorLayout from '../layouts/EditorLayout.svelte'
 const title = 'Error! [404]'
-const autho = 'Boy Emperor Pfks!'
+const author = 'Boy Emperor Pfks!'
 const date = '13 Oct 2022'
 </script>
 
