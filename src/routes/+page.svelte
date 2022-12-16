@@ -2,7 +2,7 @@
   import Greet from "$lib/Greet.svelte";
 </script>
 
-<h1>Welcome to Tauri!</h1>
+<h1>Welcome to TandemBytes' TranslateRS! AKA: Slates!</h1>
 
 <div class="row">
   <a href="https://vitejs.dev" target="_blank">
@@ -11,7 +11,7 @@
   <a href="https://tauri.app" target="_blank">
     <img src="/tauri.svg" class="logo tauri" alt="Tauri Logo" />
   </a>
-  <a href="https://kit.svelte.dev" target="_blank">
+  <a href="https://kit.svelte.dev" target="_blank" >
     <img src="/svelte.svg" class="logo svelte" alt="Svelte Logo" />
   </a>
 </div>
