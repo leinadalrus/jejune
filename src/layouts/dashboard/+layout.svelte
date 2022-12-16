@@ -1,5 +1,5 @@
 <script lang='ts'>
-  import ImmutableModel from '../models/faas/DashboardModel.svelte'
+  import ImmutableModel from '../../models/faas/DashboardModel.svelte'
   import { beforeUpdate } from 'svelte'
 
   export let items: any = [
@@ -9,7 +9,7 @@
     { id: 0, done: true, body: '' }
   ]
   $: url = items.type === 'ask' ? 
-    `https://www.tandembytes.com/${items.id}` : 
+    `https://story.tandembytes.com/${items.id}` : 
       items.urls
 
   function commentBody () {

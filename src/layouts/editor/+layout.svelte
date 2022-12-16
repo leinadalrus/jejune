@@ -1,9 +1,9 @@
 <script lang='ts'>
 import { VITE_SUPABASE_PUB_URL } from '$env/static/private';
 
-import ContentBody from '../routes/components/ContentBody/ContentBody.svelte'
-import Footer from '../routes/components/Footer/FooterMeta.svelte'
-import Frontmatter from '../routes/components/Frontmatter/Frontmatter.svelte'
+import ContentBody from '../../routes/components/ContentBody/ContentBody.svelte'
+import Footer from '../../routes/components/Footer/FooterMeta.svelte'
+import Frontmatter from '../../routes/components/Frontmatter/Frontmatter.svelte'
 
 type Props = {
   frontmatter: Frontmatter
@@ -16,7 +16,7 @@ const currentFile = `src/routes${currentPage.replace(/\/$/, '')}.md`
 const pages = {
   undefined: {
     title: 'Brio',
-    text: 'Hello! And Welcome to TandemBytes!',
+    text: 'Hello! And Welcome to Brio!',
   },
   'homepage': {
     title: 'My Homepage',
