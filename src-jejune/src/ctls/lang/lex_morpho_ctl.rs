@@ -4,7 +4,7 @@ pub mod controllers {
         result,
     };
 
-    use crate::models::lex_morpho_ast::lexicon::{Crits, Gloss, Lexer};
+    use crate::models::lang::lex_morpho_ast::lexicon::{Crits, Gloss, Lexer};
 
     pub enum Actions {
         GET,

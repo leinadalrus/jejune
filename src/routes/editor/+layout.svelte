@@ -1,5 +1,7 @@
 <script lang='ts'>
-import { VITE_SUPABASE_PUB_URL } from '$env/static/private';
+import '../app.css'
+import type { LayoutData } from './$types'
+import { VITE_SUPABASE_PUB_URL } from '$env/static/private'
 
 import ContentBody from '../../routes/components/ContentBody/ContentBody.svelte'
 import Footer from '../../routes/components/Footer/FooterMeta.svelte'
@@ -39,6 +41,8 @@ const pages = {
     text: 'Manage Profile',
   }
 }
+
+let data: LayoutData
 
 // const page = pages[slug]
 if (!pages) new Request(VITE_SUPABASE_PUB_URL)

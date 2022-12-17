@@ -1,6 +1,8 @@
 <script lang='ts'>
   import { beforeUpdate } from 'svelte'
-  import DashboardModel from '../../models/faas/DashboardModel.svelte';
+  import type { LayoutData } from './$types'
+  import DashboardModel from '../../models/faas/DashboardModel.svelte'
+  import './app.css'
 
   export let items: any = [
     { user: '', content: '', commentsCount: 1, timeAgo: Date.now() }
@@ -12,7 +14,9 @@
     `https://story.tandembytes.com/${items.id}` : 
       items.urls
 
-  function commentBody () {
+  let data: LayoutData
+
+  function commentBody (): string {
     const content = items.commentsCount
     return `${content} ${content === 1 ? 'comment' : 'comments'}`
   }
